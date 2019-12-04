@@ -47,7 +47,12 @@ bed = 10.75
 bath = 9.50
 
 # house information as list of lists
+house = [["hallway", hall],["kitchen", kit], ["living room", liv], ["bedroom", bed], ["bathroom", bath]]
 
+# Print out house
+print(house)
 
+# Print out the type of house
+print(type(house))
 
 
