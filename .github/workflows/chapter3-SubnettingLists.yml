@@ -13,6 +13,21 @@ areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.7
 print(areas[1])
 
 #Subset and print out the last element of areas, being 9.50. Using a negative index makes sense here!
-print(areas[-1]
+print(areas[-1])
 
 #Select the number representing the area of the living room and print it out.
+print(areas[5])
+
+#subset & calculate
+x = ["a", "b", "c", "d"]
+print(x[1] + x[3])
+
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Sum of kitchen and bedroom area: eat_sleep_area
+eat_sleep_area = areas[3] + areas[-3]
+
+# Print the variable eat_sleep_area
+print(eat_sleep_area)
+
